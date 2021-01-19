@@ -1,15 +1,15 @@
-##Learning Outcomes
+## Learning Outcomes
 
 By the end of this activity, a student should be able to:
 1. Step through a python function manually
 2. Explain verbally to his/her partner the result of executing the function given argument(s)
 3. Modify the function to satisfy a stated requirement
 
-##Introduction
+## Introduction
 
 This recitation requires that you form pairs and manually step through the Python function provided below.  Once you have explained the function to the satisfaction of your partner, you will execute the function and observe whether the result as you expected.  If the result is not as expected, you are required to go back and analyze why you did not get the observed result.  Once this task is completed, you will be asked to modify the function to satisfy a requirement.
 
-##Python's Functions - First-Class Objects
+## Python's Functions - First-Class Objects
 
 Python's functions are first-class objects. You can assign them to variables, store them in data structures, pass them as arguments to other functions, and even return them as values from other functions.  For example,
 
@@ -90,7 +90,7 @@ def foo2(func, x,y):
 15
 ```
 
-##Activity 1:  Manual Walkthrough a Function (20 min)
+## Activity 1:  Manual Walkthrough a Function (20 min)
 
 Consider the following Python function:
 
@@ -111,7 +111,7 @@ def crypto(filename, cypher):
 3. If the result is not as expected, then analyze why.
 4. Once the analysis is completed, proceed to the next section.
 
-## Discussion (10 min)
+### Discussion (10 min)
 
 1. What does this function do?
 2. What are the difficulties in analyzing this function?
