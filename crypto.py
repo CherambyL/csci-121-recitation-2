@@ -1,17 +1,13 @@
 # ***************************************************
 # Delaware State University
-# Department of Computer and Information Sciences
+# Division of Physics, Engineering, Mathematics, and
+# Computer Science
 # CSCI-121 Elements of Computer Programming II
 # Recitation 2 - Input/Output and Crypto
 # ***************************************************
 
 def crypto(filename, cypher):
-    with open(filename, 'r') as fh, open(filename+'.enc', 'w') as fh_enc:
-        for line in fh:
-            e_line = ''
-            for ch in line:
-                e_line += cypher(ch)
-            fh_enc.write(e_line)
+    pass # TODO please replace this line with your code
 
 # DO NOT touch the lines below
 if __name__ == "__main__":
